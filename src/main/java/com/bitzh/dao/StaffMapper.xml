@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bitzh.dao.StaffMapper">
+  <resultMap id="BaseResultMap" type="com.bitzh.domain.Staff">
+    <id column="S_ID" jdbcType="INTEGER" property="sId" />
+    <result column="S_Name" jdbcType="VARCHAR" property="sName" />
+    <result column="S_Age" jdbcType="INTEGER" property="sAge" />
+    <result column="S_Sex" jdbcType="VARCHAR" property="sSex" />
+    <result column="S_Telephone" jdbcType="INTEGER" property="sTelephone" />
+    <result column="S_Email" jdbcType="VARCHAR" property="sEmail" />
+    <result column="S_Entrytime" jdbcType="TIMESTAMP" property="sEntrytime" />
+    <result column="S_Salary" jdbcType="INTEGER" property="sSalary" />
+    <result column="S_Job" jdbcType="VARCHAR" property="sJob" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    S_ID, S_Name, S_Age, S_Sex, S_Telephone, S_Email, S_Entrytime, S_Salary, S_Job
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_staff
+    where S_ID = #{sId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+
+    delete from t_staff
+    where S_ID = #{sId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="S_ID" keyProperty="sId" parameterType="com.bitzh.domain.Staff" useGeneratedKeys="true">
+    insert into t_staff (S_Name, S_Age, S_Sex,
+      S_Telephone, S_Email, S_Entrytime,
+      S_Salary, S_Job)
+    values (#{sName,jdbcType=VARCHAR}, #{sAge,jdbcType=INTEGER}, #{sSex,jdbcType=VARCHAR},
+      #{sTelephone,jdbcType=INTEGER}, #{sEmail,jdbcType=VARCHAR}, #{sEntrytime,jdbcType=TIMESTAMP},
+      #{sSalary,jdbcType=INTEGER}, #{sJob,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.bitzh.domain.Staff">
+
+    update t_staff
+    set S_Name = #{sName,jdbcType=VARCHAR},
+      S_Age = #{sAge,jdbcType=INTEGER},
+      S_Sex = #{sSex,jdbcType=VARCHAR},
+      S_Telephone = #{sTelephone,jdbcType=INTEGER},
+      S_Email = #{sEmail,jdbcType=VARCHAR},
+      S_Entrytime = #{sEntrytime,jdbcType=TIMESTAMP},
+      S_Salary = #{sSalary,jdbcType=INTEGER},
+      S_Job = #{sJob,jdbcType=VARCHAR}
+    where S_ID = #{sId,jdbcType=INTEGER}
+  </update>
+  <select id="findAllStaff" resultType="Staff">
+    select * from t_staff
+  </select>
+
+  <select id="findByName" resultType="Staff">
+    select * from t_staff
+    where S_Name like CONCAT(CONCAT('%',#{sName},'%'))
+  </select>
+</mapper>

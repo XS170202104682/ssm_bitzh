@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.11899791" />
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm_bitzh:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce8163bc-ac83-4209-aa0e-796151b41be6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/tmain.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitzh/controller/CaeteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitzh/controller/CaeteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitzh/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitzh/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitzh/dao/CaeteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitzh/dao/CaeteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitzh/dao/CaeteDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitzh/dao/CaeteDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitzh/domain/Caete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitzh/domain/Caete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitzh/service/CaeteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitzh/service/CaeteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitzh/service/Impl/CaeteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitzh/service/impl/CaeteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCaete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCaete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/allCaete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/allCaete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateCaete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateCaete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ssm_bitzh.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitzh/controller/CaeteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitzh/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitzh/dao/CaeteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitzh/dao/CaeteDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitzh/domain/Caete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitzh/service/CaeteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitzh/service/Impl/CaeteServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/META-INF/ssm_bitzh.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/com/bitzh/controller/CaeteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/com/bitzh/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/com/bitzh/dao/CaeteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/com/bitzh/dao/CaeteDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/com/bitzh/domain/Caete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/com/bitzh/service/CaeteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/com/bitzh/service/Impl/CaeteServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/apiguardian-api-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/aspectjweaver-1.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/c3p0-0.9.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/jsqlparser-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/junit-jupiter-5.7.0-M1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/junit-jupiter-api-5.7.0-M1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/junit-jupiter-engine-5.7.0-M1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/junit-jupiter-params-5.7.0-M1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/junit-platform-commons-1.7.0-M1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/junit-platform-engine-1.7.0-M1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/log4j-api-2.12.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/log4j-core-2.12.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/mchange-commons-java-0.2.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/mybatis-3.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/mybatis-spring-2.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/mysql-connector-java-8.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/opentest4j-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/pagehelper-5.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/spring-aop-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/spring-beans-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/spring-context-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/spring-core-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/spring-expression-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/spring-jcl-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/spring-jdbc-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/spring-tx-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/spring-web-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/lib/spring-webmvc-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/pages/addCaete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/pages/allCaete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/pages/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/pages/updateCaete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_bitzh/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="log4j2.xml" />
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="YYHCOPPOLO &lt;1305403032@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="beta0.2(基本环境升级)" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../eclipse IDE/java/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\eclipse IDE\java\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c25kkyDbkEnn8e8vBhSl1pkQMO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.1816092" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA WorkSpace\ssm_bitzh\src\main\java\com\bitzh\dao" />
+      <recent name="D:\IDEA WorkSpace\ssm_bitzh\src\main\java\com\bitzh\dao\mapper" />
+      <recent name="D:\IDEA WorkSpace\ssm_bitzh\src\main\resources\mapper" />
+      <recent name="D:\IDEA WorkSpace\ssm_bitzh\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bitzh.tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA WorkSpace\ssm_bitzh\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.471">
+    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="testMybatis.run1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_bitzh" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testMybatis" />
+      <option name="METHOD_NAME" value="run1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSpring.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_bitzh" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testSpring" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.471" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.471" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ssm_bitzh:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_bitzh_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_471_ssm_bitzh" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49475" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_bitzh:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.471" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssm_bitzh:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_bitzh_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ssm_bitzh" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49475" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_bitzh:war exploded" />
+          <artifact name="ssm_bitzh:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests#1" />
+      <item itemvalue="JUnit.testMybatis.run1" />
+      <item itemvalue="JUnit.testSpring.run" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.471" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.testMybatis.run1" />
+        <item itemvalue="JUnit.testSpring.run" />
+        <item itemvalue="HTTP Request.generated-requests#1" />
+        <item itemvalue="JUnit.testMybatis.run1" />
+        <item itemvalue="JUnit.testSpring.run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce8163bc-ac83-4209-aa0e-796151b41be6" name="Default Changelist" comment="" />
+      <created>1589713992162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589713992162</updated>
+      <workItem from="1589713993702" duration="3104000" />
+      <workItem from="1589768688693" duration="14448000" />
+      <workItem from="1589788593418" duration="398000" />
+      <workItem from="1589789017251" duration="5412000" />
+      <workItem from="1589794671730" duration="534000" />
+      <workItem from="1589796184361" duration="127000" />
+      <workItem from="1589798702445" duration="4931000" />
+      <workItem from="1589807619013" duration="1008000" />
+      <workItem from="1589856919539" duration="10142000" />
+      <workItem from="1589879252818" duration="154000" />
+      <workItem from="1589879427781" duration="33000" />
+      <workItem from="1589884342284" duration="77000" />
+      <workItem from="1589885121725" duration="940000" />
+      <workItem from="1589937786818" duration="29020000" />
+      <workItem from="1589982799379" duration="252000" />
+      <workItem from="1590022599334" duration="2632000" />
+      <workItem from="1590037517961" duration="3471000" />
+      <workItem from="1590063884394" duration="38000" />
+      <workItem from="1590065257156" duration="87000" />
+      <workItem from="1590113844921" duration="2605000" />
+      <workItem from="1590148952093" duration="2506000" />
+      <workItem from="1590155409416" duration="1115000" />
+      <workItem from="1590198099440" duration="8481000" />
+      <workItem from="1590223961366" duration="1805000" />
+      <workItem from="1590226258687" duration="859000" />
+      <workItem from="1590234229781" duration="158000" />
+      <workItem from="1590237673259" duration="4374000" />
+      <workItem from="1590283592586" duration="17492000" />
+      <workItem from="1590325062684" duration="2778000" />
+      <workItem from="1590369687676" duration="7738000" />
+      <workItem from="1590381803613" duration="4695000" />
+      <workItem from="1590395126579" duration="1231000" />
+      <workItem from="1590414841968" duration="89000" />
+      <workItem from="1590463336099" duration="648000" />
+      <workItem from="1590464161820" duration="2246000" />
+      <workItem from="1590468951277" duration="754000" />
+      <workItem from="1590471001544" duration="157000" />
+      <workItem from="1590475941950" duration="214000" />
+      <workItem from="1590476598388" duration="228000" />
+      <workItem from="1590477238051" duration="43000" />
+      <workItem from="1590553831582" duration="675000" />
+      <workItem from="1590558948087" duration="649000" />
+      <workItem from="1590561349276" duration="152000" />
+      <workItem from="1590568976393" duration="481000" />
+      <workItem from="1590576984998" duration="647000" />
+      <workItem from="1590582226056" duration="495000" />
+      <workItem from="1590711302377" duration="3797000" />
+      <workItem from="1590720954561" duration="45000" />
+      <workItem from="1590810777096" duration="1217000" />
+      <workItem from="1590972589710" duration="3430000" />
+      <workItem from="1590977693305" duration="201000" />
+      <workItem from="1591077238068" duration="122000" />
+      <workItem from="1591162725417" duration="1014000" />
+      <workItem from="1591235286263" duration="79000" />
+      <workItem from="1591314833332" duration="5759000" />
+      <workItem from="1591326044822" duration="2612000" />
+      <workItem from="1591514547395" duration="18192000" />
+      <workItem from="1591577503064" duration="1872000" />
+      <workItem from="1591579518802" duration="1382000" />
+      <workItem from="1592223458455" duration="822000" />
+      <workItem from="1592281588261" duration="228000" />
+      <workItem from="1592284483420" duration="240000" />
+    </task>
+    <task id="LOCAL-00001" summary="ssm基本环境">
+      <created>1589716283152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589716283152</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ssm基本环境">
+      <created>1589770486383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589770486383</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ssm基本环境(beta0.1)">
+      <created>1589794763431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589794763431</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ssm基本环境(beta0.1)">
+      <created>1589794932114</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589794932114</updated>
+    </task>
+    <task id="LOCAL-00005" summary="beta0.2(基本环境更新)">
+      <created>1589802431028</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589802431028</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ssm1.0（问题修复）">
+      <created>1589864707282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589864707282</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ssm1.0（问题修复）">
+      <created>1589865628419</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589865628419</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ssmCrud">
+      <created>1590238341850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590238341850</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ssm基本环境" />
+    <MESSAGE value="ssm基本环境(beta0.1)" />
+    <MESSAGE value="beta0.2(基本环境更新)" />
+    <MESSAGE value="ssm1.0（问题修复）" />
+    <MESSAGE value="ssmCrud" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssmCrud" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="426" y="132" key="#HTTP_Proxy" timestamp="1589982980750">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="426" y="132" key="#HTTP_Proxy/0.0.1536.824@0.0.1536.824" timestamp="1589982980750" />
+    <state x="630" y="229" key="#Notifications" timestamp="1590238514390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="630" y="229" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1590238514390" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1589942261259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589942261259" />
+    <state x="542" y="308" key="#Tomcat_Server" timestamp="1589717073374">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="308" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1589717073374" />
+    <state x="60" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591533998096">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="60" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591533998096" />
+    <state x="513" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591535775093">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1591535775093" />
+    <state x="511" y="247" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1590471056363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="247" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1590471056363" />
+    <state x="403" y="99" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1589801971359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="99" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589801971359" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1591535610147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591535610147" />
+    <state x="499" y="187" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590304700376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="187" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1590304700376" />
+    <state x="497" y="48" width="441" height="658" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1590155658451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="497" y="48" width="441" height="658" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590155658451" />
+    <state x="436" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590559544742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1590559544742" />
+    <state x="388" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589948577589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="388" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1589948577589" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591314862913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591314862913" />
+    <state x="164" y="0" width="1129" height="824" key="CommitChangelistDialog2" timestamp="1590238337880">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="164" y="0" width="1129" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590238337880" />
+    <state x="744" y="276" key="FileChooserDialogImpl" timestamp="1592284503089">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="744" y="276" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592284503089" />
+    <state x="591" y="289" width="258" height="297" key="Github.ShareDialog" timestamp="1589716084623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="591" y="289" width="258" height="297" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1589716084623" />
+    <state x="569" y="106" key="Github.UntrackedFilesDialog" timestamp="1589715634480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="569" y="106" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589715634480" />
+    <state width="1133" height="21" key="GridCell.Tab.-1.bottom" timestamp="1591527117053">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="21" key="GridCell.Tab.-1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591527117053" />
+    <state width="1133" height="21" key="GridCell.Tab.-1.center" timestamp="1591527117053">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="21" key="GridCell.Tab.-1.center/0.0.1536.824@0.0.1536.824" timestamp="1591527117053" />
+    <state width="1133" height="21" key="GridCell.Tab.-1.left" timestamp="1591527117053">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="21" key="GridCell.Tab.-1.left/0.0.1536.824@0.0.1536.824" timestamp="1591527117053" />
+    <state width="1133" height="21" key="GridCell.Tab.-1.right" timestamp="1591527117053">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="21" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1591527117053" />
+    <state width="1133" height="639" key="GridCell.Tab.0.bottom" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="639" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state width="1133" height="639" key="GridCell.Tab.0.center" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="639" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state width="1133" height="639" key="GridCell.Tab.0.left" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="639" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state width="1133" height="639" key="GridCell.Tab.0.right" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="639" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state width="1133" height="639" key="GridCell.Tab.1.bottom" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="639" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state width="1133" height="639" key="GridCell.Tab.1.center" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="639" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state width="1133" height="639" key="GridCell.Tab.1.left" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="639" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state width="1133" height="639" key="GridCell.Tab.1.right" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="639" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state x="110" y="623" width="1133" height="639" key="GridCell.Tab.2.bottom" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="639" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state x="110" y="623" width="1133" height="639" key="GridCell.Tab.2.center" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="639" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state x="110" y="623" width="1133" height="639" key="GridCell.Tab.2.left" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="639" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state x="110" y="623" width="1133" height="639" key="GridCell.Tab.2.right" timestamp="1592284724928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="639" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1592284724928" />
+    <state x="110" y="623" width="1133" height="490" key="GridCell.Tab.3.bottom" timestamp="1591526717069">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="490" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591526717069" />
+    <state x="110" y="623" width="1133" height="490" key="GridCell.Tab.3.center" timestamp="1591526717069">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="490" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1591526717069" />
+    <state x="110" y="623" width="1133" height="490" key="GridCell.Tab.3.left" timestamp="1591526717069">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="490" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1591526717069" />
+    <state x="110" y="623" width="1133" height="490" key="GridCell.Tab.3.right" timestamp="1591526717069">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="490" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1591526717069" />
+    <state x="110" y="623" width="1133" height="55" key="GridCell.Tab.4.bottom" timestamp="1591520397313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="55" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591520397313" />
+    <state x="110" y="623" width="1133" height="55" key="GridCell.Tab.4.center" timestamp="1591520397313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="55" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1591520397313" />
+    <state x="110" y="623" width="1133" height="55" key="GridCell.Tab.4.left" timestamp="1591520397313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="55" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1591520397313" />
+    <state x="110" y="623" width="1133" height="55" key="GridCell.Tab.4.right" timestamp="1591520397313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1133" height="55" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1591520397313" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1589773985825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1589773985825" />
+    <state x="340" y="151" key="IDE.errors.dialog" timestamp="1591326419030">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="340" y="151" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1591326419030" />
+    <state x="438" y="310" key="MavenRunHelper.GoalEditor" timestamp="1589775536030">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="438" y="310" key="MavenRunHelper.GoalEditor/0.0.1536.824@0.0.1536.824" timestamp="1589775536030" />
+    <state x="81" y="0" width="1265" height="824" key="SettingsEditor" timestamp="1590223939226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="81" y="0" width="1265" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590223939226" />
+    <state x="253" y="178" key="Vcs.Push.Dialog.v2" timestamp="1590239632703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="253" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590239632703" />
+    <state x="110" y="623" width="1147" height="121" key="dock-window-1" timestamp="1591520682588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="623" width="1147" height="121" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1591520682588" />
+    <state x="416" y="199" key="git4idea.merge.GitPullDialog" timestamp="1590238904802">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="416" y="199" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1590238904802" />
+    <state x="446" y="258" width="528" height="229" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1590239159145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="446" y="258" width="528" height="229" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590239159145" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591538094944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591538094944" />
+    <state x="449" y="95" key="spring file set editor" timestamp="1589778949027">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1589778949027" />
+  </component>
+</project>

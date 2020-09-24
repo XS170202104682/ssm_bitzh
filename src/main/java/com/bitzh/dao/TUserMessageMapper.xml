@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bitzh.dao.TUserMessageMapper">
+  <resultMap id="BaseResultMap" type="com.bitzh.domain.TUserMessage">
+    <!--@mbg.generated-->
+    <!--@Table t_user_message-->
+    <id column="M_ID" jdbcType="INTEGER" property="mId" />
+    <result column="M_UserID" jdbcType="INTEGER" property="mUserid" />
+    <result column="M_Time" jdbcType="TIMESTAMP" property="mTime" />
+    <result column="M_Dsc" jdbcType="VARCHAR" property="mDsc" />
+    <result column="M_Rid" jdbcType="INTEGER" property="mRid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    M_ID, M_UserID, M_Time, M_Dsc, M_Rid
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from t_user_message
+    where M_ID = #{mId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    <!--@mbg.generated-->
+    delete from t_user_message
+    where M_ID = #{mId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="M_ID" keyProperty="mId" parameterType="com.bitzh.domain.TUserMessage" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into t_user_message (M_UserID, M_Dsc,
+      M_Rid)
+    values (#{mUserid,jdbcType=INTEGER}, #{mDsc,jdbcType=VARCHAR},
+      #{mRid,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" keyColumn="M_ID" keyProperty="mId" parameterType="com.bitzh.domain.TUserMessage" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into t_user_message
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="mUserid != null">
+        M_UserID,
+      </if>
+      <if test="mTime != null">
+        M_Time,
+      </if>
+      <if test="mDsc != null">
+        M_Dsc,
+      </if>
+      <if test="mRid != null">
+        M_Rid,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="mUserid != null">
+        #{mUserid,jdbcType=INTEGER},
+      </if>
+      <if test="mTime != null">
+        #{mTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="mDsc != null">
+        #{mDsc,jdbcType=VARCHAR},
+      </if>
+      <if test="mRid != null">
+        #{mRid,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bitzh.domain.TUserMessage">
+    <!--@mbg.generated-->
+    update t_user_message
+    <set>
+      <if test="mUserid != null">
+        M_UserID = #{mUserid,jdbcType=INTEGER},
+      </if>
+      <if test="mTime != null">
+        M_Time = #{mTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="mDsc != null">
+        M_Dsc = #{mDsc,jdbcType=VARCHAR},
+      </if>
+      <if test="mRid != null">
+        M_Rid = #{mRid,jdbcType=INTEGER},
+      </if>
+    </set>
+    where M_ID = #{mId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bitzh.domain.TUserMessage">
+    <!--@mbg.generated-->
+    update t_user_message
+    set M_UserID = #{mUserid,jdbcType=INTEGER},
+      M_Time = #{mTime,jdbcType=TIMESTAMP},
+      M_Dsc = #{mDsc,jdbcType=VARCHAR},
+      M_Rid = #{mRid,jdbcType=INTEGER}
+    where M_ID = #{mId,jdbcType=INTEGER}
+  </update>
+  <select id="findAll" resultType="com.bitzh.domain.TUserMessage">
+    select
+    <include refid="Base_Column_List" />
+    from t_user_message
+  </select>
+</mapper>

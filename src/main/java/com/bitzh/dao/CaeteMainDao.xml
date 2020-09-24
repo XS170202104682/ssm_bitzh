@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bitzh.dao.CaeteMainDao">
+    <resultMap id="Shopping" type="com.bitzh.domain.Shopping">
+        <id column="T_ID" property="cId"/>
+        <result column="T_Name" property="cName"/>
+        <result column="T_Price" property="cPrice"/>
+        <result column="T_Weight" property="cWeight"/>
+        <result column="T_Money" property="tMoney"/>
+    </resultMap>
+    <resultMap id="Order" type="com.bitzh.domain.Order">
+        <id column="O_ID" property="oId"/>
+        <result column="O_UserID" property="oUserID"/>
+        <result column="O_MenuID" property="oMenuID"/>
+        <result column="O_Time" property="oTime"/>
+        <result column="O_Status" property="oStatus"/>
+    </resultMap>
+
+    <insert id="addOrder" parameterType="com.bitzh.domain.Order">
+        insert into t_order (O_ID,O_UserID,O_MenuID,O_Time,O_Status) values (#{oId},#{oUserID},#{oMenuID},#{oTime},#{oStatus});
+    </insert>
+
+    <select id="queryCaeteById" resultType="com.bitzh.domain.Caete">
+        select * from t_caete where C_ID = #{cId}
+    </select>
+    
+    <select id="queryAllCaete" resultType="com.bitzh.domain.Caete">
+        select * from t_caete
+    </select>
+
+    <insert id="addShopping" parameterType="com.bitzh.domain.Caete">
+        insert into t_shopping (T_Name,T_Price,T_Weight)
+        values (#{cName},#{cPrice},#{cWeight});
+    </insert>
+
+    <select id="selectShopping" resultMap="Shopping">
+        select * from t_shopping
+    </select>
+
+    <delete id="deleteShopping" parameterType="Integer">
+        delete from t_shopping
+        where T_ID = #{cId}
+    </delete>
+
+    <select id="selectShoppingById" resultMap="Shopping">
+        select * from t_shopping where T_ID = #{cId}
+    </select>
+
+    
+</mapper>
